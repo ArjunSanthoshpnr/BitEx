@@ -1,0 +1,170 @@
+  * {
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+  }
+body {
+    background: #200122;
+    background: -webkit-linear-gradient(to right, #200122, #6f0000);
+    background: linear-gradient(to right, #200122, #6f0000);
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    margin: 0;
+}
+
+.logo {
+    margin: auto;
+    text-align: center;
+}
+p.logo {
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+}
+.searchLetter {
+    margin: auto;
+    display: table;
+    cursor: pointer;
+}
+.searchLetter p{
+    padding: 10px 0px;
+    margin-bottom: 30px;
+    width: 20px;
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: white;
+    opacity: 0.5;
+    letter-spacing: 8px;
+}
+.searchLetter p:hover {
+    font-weight: 700;
+    opacity: 1;
+}
+.content  {
+    margin: auto;
+    display: inline-block;
+}
+#blockItems {
+    margin: auto;
+    width: 1500px;
+    min-height: 200px;
+}
+.col {
+    width: 320px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    display: inline-block;
+    margin: 10px 25px;
+    border-radius: 10px;
+
+}
+.col img{
+    display: block;
+    padding: 0 20px;
+    margin-top: 5px;
+}
+.col p{
+    margin: 0;
+    display: table;
+    padding: 0 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 25px;
+
+}
+.col #value{
+    font-size: 28px;
+}
+.footer {
+    margin-top: 50px;
+    padding: 0;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.footer p {
+    margin: 2px;
+    opacity: .5;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 1600px) {
+    #blockItems {
+        width: 1200px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    #blockItems {
+        width: 800px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    #blockItems {
+        width: 400px;
+    }
+}
+
+
+@media only screen and (max-width: 415px) {
+    #blockItems {
+        width: 400px;
+        text-align: center;
+        
+    }
+    p.logo {
+        font-size: 25px;
+        margin-bottom: 5px;
+
+    }
+    .searchLetter {
+        padding: 0px 40px;
+        text-align: center;
+    }
+    .searchLetter p{
+        padding: 0;
+        margin-bottom: 0px;
+        width: 20px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        font-size: 12px;
+    }
+    .col {
+        width: 280px;
+        height: 110px;
+        display: inline-block;
+        margin: 10px 25px;  
+    }
+    .col img{
+        display: table-column-group;
+        padding: 0;
+        margin: auto;
+        height: 48px;
+        width: 48px;
+        padding: 0px 20px;
+        text-align: center;
+        
+    }  
+    .col p{
+        margin: 0;
+        display: block;
+        padding: 0 20px;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+    
+    }
+    .col #value{
+        display: block;
+        font-size: 28px;
+        padding-left: 20px;
+    }
+}
+

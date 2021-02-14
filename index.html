@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitEx</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="media/Bitcoin.svg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="box">
+        <div class="row" id="body">
+            <div class="logo">
+                <svg onclick="changeTheme()" xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 237.497 237.512">
+                    <path id="Path_1" data-name="Path 1" d="M184.086,116.059A93.419,93.419,0,1,1,116.036,2.8,93.426,93.426,0,0,1,184.086,116.059Z" transform="matrix(0.966, -0.259, 0.259, 0.966, 4.304, 52.673)" fill="none" stroke="#fff" stroke-width="7"/>
+                    <path id="Path_2" data-name="Path 2" d="M89.17,47.575C91.03,35.141,81.562,28.456,68.617,24l4.2-16.845L62.563,4.6,58.474,21c-2.7-.672-5.464-1.305-8.215-1.933L54.377,2.555,44.129,0l-4.2,16.839c-2.231-.508-4.421-1.01-6.547-1.539l.012-.053-14.14-3.531L16.523,22.668s7.608,1.743,7.447,1.852c4.153,1.037,4.9,3.785,4.778,5.963l-4.784,19.19a8.493,8.493,0,0,1,1.066.342c-.342-.085-.707-.178-1.083-.269L17.242,76.627a3.732,3.732,0,0,1-4.7,2.436c.1.149-7.453-1.86-7.453-1.86L0,88.939l13.343,3.326c2.482.622,4.915,1.273,7.31,1.887l-4.243,17.037,10.242,2.555,4.2-16.856c2.8.759,5.514,1.46,8.171,2.12l-4.188,16.777,10.253,2.555,4.243-17.005C66.818,104.645,79.965,103.31,85.5,87.5c4.459-12.733-.222-20.077-9.421-24.867,6.7-1.545,11.746-5.952,13.092-15.054ZM65.743,80.426c-3.169,12.733-24.607,5.849-31.557,4.124l5.63-22.571C46.766,63.713,69.055,67.148,65.743,80.426Zm3.172-33.035c-2.891,11.582-20.734,5.7-26.523,4.255l5.1-20.472C53.285,32.617,71.925,35.31,68.914,47.391Z" transform="matrix(0.966, -0.259, 0.259, 0.966, 59.804, 72.357)" fill="#fff"/>
+                  </svg>                  
+            </div>
+            <div class="row">
+                <p class="logo">1 bitcoin</p>
+            </div>
+            <div class="row searchLetter" id="searchLetter">
+            </div>
+            <div id="blockItems" onclick="searchItem()">
+                
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <i class="fab fa-github"></i>
+        <p>Powerd by Arjun Santhosh</p>
+    </div>
+    <script src='Common-Currency.jsonp'></script>
+    <script src='app.js'></script>
+
+</body>
+</html>
