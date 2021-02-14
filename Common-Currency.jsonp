@@ -1,0 +1,226 @@
+sourceCurrencyList = {
+	"Country": {
+		"usd": {
+			"name": "USA",
+			"countryCode": "us"
+		},
+		"aed": {
+			"name": "UAE",
+			"countryCode": "ae"
+		},
+		"ars": {
+			"name": "Argentina",
+			"countryCode": "ar"
+		},
+		"aud": {
+			"name": "Australia",
+			"countryCode": "au"
+		},
+		"bdt": {
+			"name": "Bangladesh",
+			"countryCode": "bd"
+		},
+		"bhd": {
+			"name": "Bahrain",
+			"countryCode": "bh"
+		},
+		"bmd": {
+			"name": "Bermuda",
+			"countryCode": "bm"
+		},
+		"brl": {
+			"name": "Brazil",
+			"countryCode": "br"
+		},
+		"cad": {
+			"name": "Canada",
+			"countryCode": "ca"
+		},
+		"chf": {
+			"name": "Switzerland",
+			"countryCode": "ch"
+		},
+		"clp": {
+			"name": "Chile",
+			"countryCode": "cl"
+		},
+		"cny": {
+			"name": "China",
+			"countryCode": "cn"
+		},
+		"czk": {
+			"name": "Czech Republic",
+			"countryCode": "cz"
+		},
+		"dkk": {
+			"name": "Denmark",
+			"countryCode": "dk"
+		},
+		"eur": [
+			{
+				"name": [
+					"Germany",
+					"France",
+					"Italy",
+					"Ireland",
+					"Spain",
+					"Netherlands",
+					"Belgium",
+					"Portugal",
+					"Greece",
+					"Austria",
+					"Finland",
+					"Luxembourg",
+					"Lithuania",
+					"Cyprus",
+					"Malta",
+					"Slovenia",
+					"Estonia",
+					"Slovakia",
+					"Latvia"
+				],
+				"countryCode": [
+					"de",
+					"fr",
+					"it",
+					"ie",
+					"es",
+					"nl",
+					"be",
+					"pt",
+					"gr",
+					"at",
+					"fi",
+					"lu",
+					"lt",
+					"cy",
+					"mt",
+					"sl",
+					"ee",
+					"sk",
+					"lv"
+				]
+			}
+		],
+		"gbp": {
+			"name": "United Kingdom",
+			"countryCode": "gb"
+		},
+		"hkd": {
+			"name": "Hong Kong",
+			"countryCode": "hk"
+		},
+		"huf": {
+			"name": "Hungary",
+			"countryCode": "hu"
+		},
+		"idr": {
+			"name": "Indonesia",
+			"countryCode": "id"
+		},
+		"ils": {
+			"name": "Israel",
+			"countryCode": "il"
+		},
+		"inr": {
+			"name": "India",
+			"countryCode": "in"
+		},
+		"jpy": {
+			"name": "Japan",
+			"countryCode": "jp"
+		},
+		"krw": {
+			"name": "South Korean",
+			"countryCode": "kr"
+		},
+		"kwd": {
+			"name": "Kuwait",
+			"countryCode": "kw"
+		},
+		"lkr": {
+			"name": "Sri Lanka",
+			"countryCode": "lk"
+		},
+		"mmk": {
+			"name": "Myanmar",
+			"countryCode": "mm"
+		},
+		"mxn": {
+			"name": "Mexico",
+			"countryCode": "mx"
+		},
+		"myr": {
+			"name": "Malaysia",
+			"countryCode": "my"
+		},
+		"ngn": {
+			"name": "Nigeria",
+			"countryCode": "ng"
+		},
+		"nok": {
+			"name": "Norway",
+			"countryCode": "no"
+		},
+		"nzd": {
+			"name": "New Zealand",
+			"countryCode": "nz"
+		},
+		"php": {
+			"name": "Philippines",
+			"countryCode": "ph"
+		},
+		"pkr": {
+			"name": "Pakistan",
+			"countryCode": "pk"
+		},
+		"pln": {
+			"name": "Poland",
+			"countryCode": "pl"
+		},
+		"rub": {
+			"name": "Russia",
+			"countryCode": "ru"
+		},
+		"sar": {
+			"name": "Saudi Arabia",
+			"countryCode": "sa"
+		},
+		"sek": {
+			"name": "Sweden",
+			"countryCode": "se"
+		},
+		"sgd": {
+			"name": "Singapore",
+			"countryCode": "sg"
+		},
+		"thb": {
+			"name": "Thailand",
+			"countryCode": "th"
+		},
+		"try": {
+			"name": "Turkey",
+			"countryCode": "tr"
+		},
+		"twd": {
+			"name": "Taiwan",
+			"countryCode": "tw"
+		},
+		"uah": {
+			"name": "Ukraine",
+			"countryCode": "ua"
+		},
+		"vef": {
+			"name": "Venezuela",
+			"countryCode": "ve"
+		},
+		"vnd": {
+			"name": "Vietnam",
+			"countryCode": "vn"
+		},
+		"zar": {
+			"name": "South Africa",
+			"countryCode": "za"
+		}
+	}
+}
